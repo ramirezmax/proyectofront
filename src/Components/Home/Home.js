@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Home.css"
+import "./Button/Button"
 
 function Home() {
   return (
@@ -8,6 +9,10 @@ function Home() {
         <h2>Welcome!</h2>
         <h2>Bemvindos!</h2>
         <h2>Willkommen!</h2>
+    <section>
+      <p>Lorem</p>
+      <Button/>
+    </section>
     </div>
   )
 }
